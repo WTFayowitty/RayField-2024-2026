@@ -138,3 +138,10 @@ local Button = EmoteTab:CreateButton({
   loadstring(game:HttpGet("https://raw.githubusercontent.com/WTFayowitty/PlatForm/refs/heads/main/MicUP-Platform"))() 
    end,
 })
+
+local Button = EmoteTab:CreateButton({
+   Name = "Platform's ☁️🎀",
+   Callback = function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/WTFayowitty/star-medium-gui/refs/heads/main/ToshBYRemakeLoadstring"))() 
+   end,
+})
