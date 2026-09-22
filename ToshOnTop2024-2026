@@ -1,7 +1,7 @@
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 local Window = Rayfield:CreateWindow({
-   Name = "                                      Toshiro's Script Hub",
+   Name = "                            2024-2026        ToshiroON Top",
    Icon = 0,
    LoadingTitle = "Toshiro RaYFIELD2024-2026 🌸",
    LoadingSubtitle = "by Toshiro",
