@@ -140,7 +140,7 @@ local Button = EmoteTab:CreateButton({
 })
 
 local Button = EmoteTab:CreateButton({
-   Name = "Platform's ☁️🎀",
+   Name = "star-mediumGui's ☁️🎀",
    Callback = function()
   loadstring(game:HttpGet("https://raw.githubusercontent.com/WTFayowitty/star-medium-gui/refs/heads/main/ToshBYRemakeLoadstring"))() 
    end,
