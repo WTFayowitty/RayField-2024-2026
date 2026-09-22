@@ -95,9 +95,9 @@ local Button = UniversalTab:CreateButton({
 })
 
 local Button = UniversalTab:CreateButton({
-   Name = "🌸 Teleport System",
+   Name = "🌸 PlatfORM",
    Callback = function()
- loadstring(game:HttpGet("https://raw.githubusercontent.com/alwaysfeartosh2/alwaysfeartosh2/refs/heads/main/TeleportManagerTosh"))()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/WTFayowitty/PlatForm/refs/heads/main/MicUP-Platform"))() 
    end,
 })
 
@@ -129,13 +129,6 @@ local Button = EmoteTab:CreateButton({
    Name = "Toshiro's ☁️🎀",
    Callback = function()
   loadstring(game:HttpGet("https://raw.githubusercontent.com/alwaysfeartosh2/alwaysfeartosh2.0/refs/heads/main/MadeByToshEmoteGui"))() 
-   end,
-})
-
-local Button = EmoteTab:CreateButton({
-   Name = "Platform's ☁️🎀",
-   Callback = function()
-  loadstring(game:HttpGet("https://raw.githubusercontent.com/WTFayowitty/PlatForm/refs/heads/main/MicUP-Platform"))() 
    end,
 })
 
