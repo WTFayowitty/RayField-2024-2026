@@ -90,7 +90,7 @@ local Button = UniversalTab:CreateButton({
 local Button = UniversalTab:CreateButton({
    Name = "🌸 Avatar Changer",
    Callback = function()
- loadstring(game:HttpGet("https://raw.githubusercontent.com/fearthedorks/AvaChanger/refs/heads/main/main.lua"))()
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/WTFayowitty/AvaChangerNew/refs/heads/main/2024-2025%20Remake"))()
    end,
 })
 
