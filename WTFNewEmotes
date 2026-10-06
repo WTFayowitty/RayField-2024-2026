@@ -1,4 +1,6 @@
-cal ContextActionService = game:GetService("ContextActionService")
+local IsStudio = false
+
+local ContextActionService = game:GetService("ContextActionService")
 local HttpService = game:GetService("HttpService")
 local GuiService = game:GetService("GuiService")
 local CoreGui = game:GetService("CoreGui")
@@ -992,7 +994,7 @@ Corner:Clone().Parent = SearchBar
 SearchBar.Parent = BackFrame
 
 local MadeByLabel = Instance.new("TextLabel")
-MadeByLabel.Text = "Updated By gab.                  GAB ON FKING TOP"
+MadeByLabel.Text = "Updated By tosh.                  TOSH ON FKING TOP"
 MadeByLabel.TextScaled = true
 MadeByLabel.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 MadeByLabel.BackgroundTransparency = 0.3
@@ -1416,8 +1418,8 @@ local AkaliNotif = loadstring(game:HttpGet("https://raw.githubusercontent.com/Ki
 local Notify = AkaliNotif.Notify;
 
 Notify({
-    Description = "Made By E6Toshiro";
-    Title = "Tosh";
+    Description = "Made By Toshmipapi";
+    Title = "Toshiro Marunong mag Coding.wtf";
     Duration = 5;
 });
 
