@@ -126,6 +126,13 @@ local Button = EmoteTab:CreateButton({
 })
 
 local Button = EmoteTab:CreateButton({
+   Name = "ToshiroNewVersion2.8.4's ☁️🎀",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/SlaviEx/ToshirO-2.8.4-Version/refs/heads/main/EmoteGui"))()    
+end,
+})
+
+local Button = EmoteTab:CreateButton({
    Name = "Toshiro's ☁️🎀",
    Callback = function()
   loadstring(game:HttpGet("https://raw.githubusercontent.com/alwaysfeartosh2/alwaysfeartosh2.0/refs/heads/main/MadeByToshEmoteGui"))() 
